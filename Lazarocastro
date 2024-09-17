@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lázaro Castro - Agente Financiero</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #008080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #00796b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .services {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            text-align: center;
+            background-color: #004d40;
+            color: white;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        a {
+            color: #008080;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lázaro Castro</h1>
+        <p>Agente Financiero Especializado en IUL, Gastos Finales, Anualidades y Seguros de Salud</p>
+    </header>
+
+    <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+        <a href="https://calendly.com/programasestatal/lazaro-castro" target="_blank">Agendar una Cita</a>
+    </nav>
+
+    <section id="servicios" class="services">
+        <h2>Servicios</h2>
+        <p>Ofrezco estrategias financieras personalizadas y planificación de testamentos y patrimonios en Texas, Florida, y North Carolina.</p>
+        <ul>
+            <li>Estrategias de seguros de vida indexados (IUL)</li>
+            <li>Planes de gastos finales</li>
+            <li>Anualidades</li>
+            <li>Seguros de salud</li>
+        </ul>
+    </section>
+
+    <section id="contacto" class="contact-info">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o quieres saber más sobre mis servicios? ¡Contáctame!</p>
+        <p>Email: <a href="mailto:info@lazarocastro.com">info@lazarocastro.com</a></p>
+        <p>Teléfono: <a href="tel:+15129981431">(512) 998-1431</a></p>
+        <p>Agenda una cita conmigo: <a href="https://calendly.com/programasestatal/lazaro-castro" target="_blank">Calendly</a></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Lázaro Castro - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
